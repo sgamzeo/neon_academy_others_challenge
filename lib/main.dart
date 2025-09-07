@@ -4,7 +4,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:neon_others_challenge/feature/coral/cubit/coral_cubit.dart';
 import 'package:neon_others_challenge/feature/home/home_page.dart';
 import 'package:neon_others_challenge/objectbox.dart';
-import 'package:neon_others_challenge/feature/event_app/event_cubit.dart';
+import 'package:neon_others_challenge/feature/ticketmaster_event_app/event_cubit.dart';
 
 import 'core/services/ticketmaster_service.dart';
 

@@ -4,10 +4,10 @@ import 'package:flutter/material.dart';
 import 'package:neon_others_challenge/feature/chat_app/chat_page.dart';
 import 'package:neon_others_challenge/feature/coral/coral_home_page.dart';
 import 'package:neon_others_challenge/feature/ticketmaster_event_app/events.dart';
-import 'package:neon_others_challenge/feature/form_db/form_page.dart';
+import 'package:neon_others_challenge/feature/sqlite_heroes_app/form_page.dart';
 import 'package:neon_others_challenge/feature/magic/ulfr_magic_home.dart';
-import 'package:neon_others_challenge/feature/music/music_page.dart';
-import 'package:neon_others_challenge/feature/task_manager/task_page.dart';
+import 'package:neon_others_challenge/feature/itunes_music_app/music_page.dart';
+import 'package:neon_others_challenge/feature/hive_task_manager/task_page.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
