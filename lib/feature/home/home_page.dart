@@ -1,11 +1,13 @@
 import 'package:custom_components/components/buttons/custom_button.dart';
 import 'package:custom_components/constants/dimens.dart';
 import 'package:flutter/material.dart';
+import 'package:neon_others_challenge/feature/chat_app/chat_page.dart';
 import 'package:neon_others_challenge/feature/coral/coral_home_page.dart';
-import 'package:neon_others_challenge/feature/event_app/events.dart';
+import 'package:neon_others_challenge/feature/ticketmaster_event_app/events.dart';
 import 'package:neon_others_challenge/feature/form_db/form_page.dart';
 import 'package:neon_others_challenge/feature/magic/ulfr_magic_home.dart';
 import 'package:neon_others_challenge/feature/music/music_page.dart';
+import 'package:neon_others_challenge/feature/task_manager/task_page.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -22,6 +24,8 @@ class HomePage extends StatelessWidget {
       {'title': 'Heroes Form (SQLite)', 'page': HeroFormPage()},
       {'title': "Ulfr's Magic (Animations)", 'page': const UlfrMagicHome()},
       {'title': 'iTunes Song Search', 'page': const ITunesSearchPage()},
+      {'title': 'Task Management', 'page': TaskPage()},
+      {'title': 'Chat', 'page': ChatPage()},
     ];
 
     return Scaffold(
