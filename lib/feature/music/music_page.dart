@@ -50,6 +50,7 @@ class _ITunesSearchPageState extends State<ITunesSearchPage> {
         child: Column(
           children: [
             Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Expanded(
                   child: TextField(
@@ -60,13 +61,13 @@ class _ITunesSearchPageState extends State<ITunesSearchPage> {
                     ),
                   ),
                 ),
-                Expanded(
-                  child: CustomButton(
-                    onPressed: _search,
-                    text: 'Search',
-                    size: ButtonSize.small,
-                    fullWidth: false,
-                  ),
+                const SizedBox(width: 16),
+
+                CustomButton(
+                  onPressed: _search,
+                  text: 'Search',
+                  size: ButtonSize.small,
+                  fullWidth: false,
                 ),
               ],
             ),
